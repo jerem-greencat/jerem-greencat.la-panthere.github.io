@@ -577,7 +577,7 @@ h4 {
     background-color: #f3976c;
 }
 .tc-white {
-    color: #F3976C!important;
+    color: white !important;
 }
 .btn-atomic-tangerine {
     background: #f3976c;
@@ -605,7 +605,7 @@ h4 {
     border-color: #364577!important;
 }
 .bg-dots-bg {
-    background-image: url("img/dots-bg.webp");
+    background: #f3976c;
 }
 .bg-lines-h2-bg {
     background-image: url("img/lines-h2-bg.webp");
@@ -729,9 +729,9 @@ h4 {
         padding-top: 0;
         border-top: 1px solid rgba(0, 0, 0, .2);
         float: none!important;
-        width: fit-content;
-        margin: auto;
+        width: 100%;
         display: flex;
+        flex-direction: column;
     }
     .navbar .nav a {
         font-size: 15px;
